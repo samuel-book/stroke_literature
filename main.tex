@@ -6,7 +6,6 @@
 \hbadness=1000000 % Turn off \hbox badness warnings
 \linespread{1.2} % Set linespace
 
-
 % Packages
 \usepackage[a4paper, left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
 \usepackage{authblk} % For author formatting
@@ -20,7 +19,6 @@
 \usepackage{longtable,booktabs}  % For tables
 \usepackage{markdown} % Allow use of markdown syntax
 \usepackage{microtype} % 'Improved' typesetting
-
 \usepackage[nottoc,numbib]{tocbibind} % Add references to table of contents
 \usepackage{parskip} % Adds white space between paragraphs
 \usepackage{pdflscape} % To create landscape pages that show as landscape in PDF viewer
@@ -35,17 +33,15 @@
 \usepackage{xcolor} % For coloured text
 \usepackage{xurl} % For url but with more flexible linebreaking
 
+% REFERENCES
 % References package and formatting (biblatex, esp with biber, is more modern and flexible than bibtex)
 % For styles see https://www.overleaf.com/learn/latex/Biblatex_bibliography_styles
-\usepackage[backend=biber, style=authoryear, minames=12, maxnames=12]{biblatex}
-
+\usepackage[backend=biber, style=apa, minnames=12, maxnames=12]{biblatex}
 % Suppress URL and DOI fields (reuires package biblatex and not bibtex)
 \AtEveryBibitem{
   \clearfield{url}
   \clearfield{doi}
 }
-
-
 \addbibresource{references.bib}
 
 
@@ -53,7 +49,7 @@
 \begin{document}
 
 % Title
-\title{Stroke literature}
+\title{Stroke Literature}
 \date{}
 \author{}
 \maketitle

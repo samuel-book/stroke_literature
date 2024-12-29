@@ -1,0 +1,29 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: Stroke Literature
+author: The SAMueL Team
+logo: logo.png
+
+#only build files specified in table of contents file
+only_build_toc_files: true
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: 'off' # force
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
+  
+
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/samuel-book/stroke_literature  # Online location of your book

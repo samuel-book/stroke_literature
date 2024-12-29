@@ -5,4 +5,5 @@
 ## References
 
 ```{bibliography}
+:style: unsrt
 ```

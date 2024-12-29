@@ -5,5 +5,5 @@
 ## References
 
 ```{bibliography}
-:style: unsrt
+:style: alpha # Use unsrt for numbered
 ```

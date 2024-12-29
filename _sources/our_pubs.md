@@ -1,6 +1,6 @@
 # Our publications
 
-{cite}`pearn_what_2023`
+{cite:p}`pearn_what_2023`
 
 ## References
 
